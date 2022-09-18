@@ -1,0 +1,12 @@
+#define ERROR_TARGET_UNSUPPORTED 1
+#define ERROR_MSENSOR_INIT 1 << 1
+#define ERROR_TSENSOR_INIT 1 << 2
+#define ERROR_LSENSOR_INIT 1 << 3
+
+#define INIT_SUCCESS 0
+
+#ifndef USE_SECONDARY_I2C
+  #define I2C_PORT &Wire
+#else
+  #define I2C_PORT SECONDARY_I2C_PORT
+#endif

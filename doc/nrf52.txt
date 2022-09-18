@@ -1,0 +1,3 @@
+downloaded:
+	https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v17.x.x/
+	nrf connect

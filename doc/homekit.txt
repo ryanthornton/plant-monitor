@@ -1,0 +1,9 @@
+Moisture sensor will have to act as a humidity sensor
+Allow homekit support only for ESP32 targets using https://github.com/HomeSpan/HomeSpan
+Light sensor and temp sensor are existing targets, direct integration should be possible
+
+Google supports these senors as well
+https://developers.google.com/assistant/smarthome/guides/sensor
+SinricPro?
+
+Eventually relative humidity should be changed to a custom field
